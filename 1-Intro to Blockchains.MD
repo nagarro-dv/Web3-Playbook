@@ -23,7 +23,6 @@ A blockchain is a distributed ledger run on many geographically different nodes 
 
 |                                    ![ScreenShot](./img/nodes.jpeg)                                    |
 |:-----------------------------------------------------------------------------------------------------:|
-| *Source: https://www.coindesk.com/markets/2014/05/09/what-are-bitcoin-nodes-and-why-do-we-need-them/* |
 
 Breaking this down.
  - Distributed ledger - The ledger is the blockchain
@@ -126,7 +125,6 @@ Both EOA's and Smart Contract have the fields nonce and balance, but the Smart C
 
 |                          ![ScreenShot](./img/Addresses.png)                          |
 |:------------------------------------------------------------------------------------:|
-| *Source: https://blog.gnosis.pm/breaking-down-ethereum-wallets-options-2162b41477d7* |
 
 
 The point to note is that you can send ETH to and from both types of addresses, and it will increase or decrease the address balance.
