@@ -53,9 +53,9 @@ You will see that "truffle develop" gives you an in memory blockchain for develo
 
 This is an interactive console that also spawns a development blockchain. 
 
-|         ![ScreenShot](../img/2-truffle/inmemory-blockchain.png)        |
-|:--------------------------------------------------------------------------------------:|
-|            *Source: https://trufflesuite.com/docs/truffle/quickstart.html/*            |
+|                ![ScreenShot](./img/2-truffle/inmemory-blockchain.png)                 |
+|:-------------------------------------------------------------------------------------:|
+|           *Source: https://trufflesuite.com/docs/truffle/quickstart.html/*            |
 
 It creates the Mnemonic seed-phrase for the accounts, derives the private keys and the EOA account addresses.
 
@@ -64,9 +64,9 @@ When you migrate with the command **truffle migrate** or just **migrate** as you
 
 By default truffle uses the first account's address as the sender(creator or owner) and a new contract address is created with the contract bytecode.
 
-|                ![ScreenShot](../img/2-truffle/migrate.png)                 |
-|:----------------------------------------------------------------:|
-| *Source: https://trufflesuite.com/docs/truffle/quickstart.html/* |
+|                ![ScreenShot](./img/2-truffle/migrate.png)                 |
+|:-------------------------------------------------------------------------:|
+|     *Source: https://trufflesuite.com/docs/truffle/quickstart.html/*      |
 
 See Deploying 'Faucet' in the console.
 
@@ -124,7 +124,7 @@ You should now be connected to the Ganache dev blockchain.
 
 Run the command ```accounts``` in the console and see the accounts[0] is the same as accounts[0] in the Ganache UI.
 
-![ScreenShot](../img/2-truffle/ganache.png)                 
+![ScreenShot](./img/2-truffle/ganache.png)                 
 
 Notice the balance has 100.00 ETH
 
@@ -132,7 +132,7 @@ Run ```migrate``` in the console
 
 Now go to contract tab in Ganache and see there is a contract created.
 
-![ScreenShot](../img/2-truffle/Contract-created-2.png)
+![ScreenShot](./img/2-truffle/Contract-created-2.png)
 
 You can now run the same commands and see the changes on Ganache.
 
@@ -143,7 +143,7 @@ Also, you can query the transaction
 
 Click on one, and you will see the TX DATA field. This is the Transaction data.
 
-![ScreenShot](../img/2-truffle/contract-creations.png)
+![ScreenShot](./img/2-truffle/contract-creations.png)
 
 Run ```web3.eth.getTransaction("TRANSACTION_ID")``` in the console
 
@@ -168,7 +168,7 @@ Add a custom network.
 
 Make sure to use the Ganache settings.
 
-![ScreenShot](../img/2-truffle/ganach-metamask.png)                 
+![ScreenShot](./img/2-truffle/ganach-metamask.png)                 
 
 Now you will be able to switch to the Ganache network in metamask, but you will notice you are not seeing any Ganache account.
 
@@ -178,8 +178,8 @@ Ganache has its own set of accounts from it's own generated seed phrase.
 
 In Ganache click on show keys for the first address and copy the private key.
 
-|                 ![ScreenShot](../img/2-truffle/show-keys.png)                  |
-|:----------------------------------------------------------------:|
+|                 ![ScreenShot](./img/2-truffle/show-keys.png)                  |
+|:-----------------------------------------------------------------------------:|
 
 
 While switched to the Ganache network in metamask import this into metamask. 
@@ -250,8 +250,8 @@ We can now look at the FE and the windows.ethereum object and associated librari
 
 Overview
 
-|                  ![ScreenShot](../img/2-truffle/Truffle-providor-overview.png)                 |
-|:----------------------------------------------------------------:|
+|                 ![ScreenShot](./img/2-truffle/Truffle-providor-overview.png)                  |
+|:---------------------------------------------------------------------------------------------:|
 
 ### Resources
 - [Truffle suite](https://trufflesuite.com/index.html)

@@ -21,8 +21,8 @@ In order to understand how to interface with a blockchain we need some backgroun
 ###  What is a blockchain.
 A blockchain is a distributed ledger run on many geographically different nodes that hold a copy of the blockchain and use a consensus mechanism protocol to confirm and validate new entries onto the ledger. 
 
-|                       ![ScreenShot](../img/nodes.jpeg)                        |
-|:--------------------------------------------------------------------:|
+|                                    ![ScreenShot](./img/nodes.jpeg)                                    |
+|:-----------------------------------------------------------------------------------------------------:|
 | *Source: https://www.coindesk.com/markets/2014/05/09/what-are-bitcoin-nodes-and-why-do-we-need-them/* |
 
 Breaking this down.
@@ -41,17 +41,17 @@ Tokens, also known as digital assets or cryptocurrencies form the basis of these
 
 The Ethereum blockchains token is Ether, normally referred to as ETH. 
 
-|                        ![ScreenShot](../img/ledger.diagram.png)                        |
-|:--------------------------------------------------------------------------------------:|
-| *Source: https://hyperledger-fabric.readthedocs.io/en/release-2.2/ledger/ledger.html*  |
+|                        ![ScreenShot](./img/ledger.diagram.png)                        |
+|:-------------------------------------------------------------------------------------:|
+| *Source: https://hyperledger-fabric.readthedocs.io/en/release-2.2/ledger/ledger.html* |
 
 Consensus mechanisms can include Proof of Work and Proof of Stake. See link below for further reading. 
 
 Fundamentally these consensus mechanisms are how **miners** go about validating and adding blocks to the blockchain in return for rewards (newly minted tokens).
 
-|                                ![ScreenShot](../img/mining.png)                                |
-|:-------------------------------------------------------------------------------------:|
-| *Source: https://hyperledger-fabric.readthedocs.io/en/release-2.2/ledger/ledger.html* |
+|                                ![ScreenShot](./img/mining.png)                                |
+|:---------------------------------------------------------------------------------------------:|
+|     *Source: https://hyperledger-fabric.readthedocs.io/en/release-2.2/ledger/ledger.html*     |
 
 There are many blockchains that use different consensus mechanisms, protocols, coding languages and compilers/virtual machines.
 
@@ -79,7 +79,7 @@ Client nodes include an EVM and a copy of both the global Ethereum state and the
 
 Ethereum's state is a large data structure which holds all accounts and balances and a machine state which is used in the execution of arbitrary machine code.
 
-|              ![ScreenShot](../img/client-diagram.png)                 |
+|               ![ScreenShot](./img/client-diagram.png)                |
 |:--------------------------------------------------------------------:|
 | *Source: https://ethereum.org/en/developers/docs/nodes-and-clients/* |
 
@@ -95,8 +95,8 @@ If they are not updates they are just reads and no propagations is needed. The d
 Ethereum's main blockchain is called main-net and is where all real transactions take place.
 For testing purposes there are test-nets that share the same addresses as main-net, as seen in metamask in the following image.
 
-|                                        ![ScreenShot](../img/test-nets.jpeg)                                        |
-|:-----------------------------------------------------------------------------------------------------------------:|
+|                                             ![ScreenShot](./img/test-nets.jpeg)                                             |
+|:---------------------------------------------------------------------------------------------------------------------------:|
 | [Source medium.com](https://medium.com/compound-finance/the-beginners-guide-to-using-an-ethereum-test-network-95bbbc85fc1d) |
 
 These may need to be switched on in wallet settings.
@@ -124,8 +124,8 @@ Both EOA's and Smart Contract have the fields nonce and balance, but the Smart C
 - Code holds code surprising and is really made up of the all the functions.
 - Data holds the Smart contract's state and is made up of all the state variables.
 
-|                        ![ScreenShot](../img/Addresses.png)                        |
-|:--------------------------------------------------------------------:|
+|                          ![ScreenShot](./img/Addresses.png)                          |
+|:------------------------------------------------------------------------------------:|
 | *Source: https://blog.gnosis.pm/breaking-down-ethereum-wallets-options-2162b41477d7* |
 
 
