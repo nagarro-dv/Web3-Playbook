@@ -246,6 +246,6 @@ However, for general development you should just use a Hot wallet. We will use t
 - [Mastering Ethereum paperback](https://github.com/ethereumbook/ethereumbook)
 
 Summary Diagram
-          ![ScreenShot](../img/Summary.png)                        
+          ![ScreenShot](./img/Summary.png)                        
 
 
