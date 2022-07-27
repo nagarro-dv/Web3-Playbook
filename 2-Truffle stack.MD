@@ -49,34 +49,42 @@ It also has a copy of the compiled **bytecode** and **deployedBytecode** that is
 - [Contract-schema](https://github.com/trufflesuite/truffle/tree/develop/packages/contract-schema)
 
 ### Truffle develop
-You will see that "truffle develop" gives you an in memory blockchain for developing with on PORT 9545. 
+You will see that the command "truffle develop" gives you an in memory blockchain for developing with on PORT 9545. 
 
-This is an interactive console that also spawns a development blockchain. 
+Run the command
+```
+truffle develop
+```
+
+This is an interactive console that also spawns a development blockchain.
 
 |                ![ScreenShot](./img/2-truffle/inmemory-blockchain.png)                 |
 |:-------------------------------------------------------------------------------------:|
-|           *Source: https://trufflesuite.com/docs/truffle/quickstart.html/*            |
 
-It creates the Mnemonic seed-phrase for the accounts, derives the private keys and the EOA account addresses.
+This creates the Mnemonic seed-phrase for the accounts, derives the private keys and the EOA account addresses.
 
 ### Truffle migrate
-When you migrate with the command **truffle migrate** or just **migrate** as you are in the truffle develop console, you deploy the compiled contract's bytecode to the blockchain. 
+When you migrate with the command **truffle migrate** or just **migrate** if you are in the truffle develop console (see later), you deploy the compiled contract's bytecode to the blockchain. 
+
+Exit the above and run this command 
+```
+truffle migrate
+```
 
 By default truffle uses the first account's address as the sender(creator or owner) and a new contract address is created with the contract bytecode.
 
 |                ![ScreenShot](./img/2-truffle/migrate.png)                 |
 |:-------------------------------------------------------------------------:|
-|     *Source: https://trufflesuite.com/docs/truffle/quickstart.html/*      |
 
 See Deploying 'Faucet' in the console.
 
-```account: 0x627306090abab3a6e1400e9345bc60c78a8bef57```
+```account: 0x02360Cc94A87e2d122746a2247Ee7f846511B2fA```
 
 and 
 
-```contract address:    0x6891Ac4E2EF3dA9bc88C96fEDbC9eA4d6D88F768```
+```contract address:    0xaE0A3b12de93eac9aE08FE5aFda06786C5543fe4```
 
-If you have not already done so, while in the develop console try some other commands to interact with the contract. 
+If you have not already done so, while in the development console try some other commands to interact with the contract. 
 
 ##### Commands to interact with the contract
 ```

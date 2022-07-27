@@ -21,10 +21,7 @@ In order to understand how to interface with a blockchain we need some backgroun
 ###  What is a blockchain.
 A blockchain is a distributed ledger run on many geographically different nodes that hold a copy of the blockchain and use a consensus mechanism protocol to confirm and validate new entries onto the ledger. 
 
-|                                    ![ScreenShot](./img/nodes.jpeg)                                    |
-|:-----------------------------------------------------------------------------------------------------:|
-
-Breaking this down.
+Lets break this down...
  - Distributed ledger - The ledger is the blockchain
  - Nodes - These are client nodes anyone can run
  - Copy of the blockchain - Each node has one.
